@@ -1,7 +1,18 @@
+from calc import add
+
+
+def func1():
+    add()
+    print('Welcome to Function One.')
+
+
+def func2():
+    print('Welcome to function two.')
+
+
 def main():
-    print('Hello world')
-    print('Welcome to Demo')
-    print('Demo Says: ', __name__)
+    func1()
+    func2()
 
 
 if __name__ == '__main__':
