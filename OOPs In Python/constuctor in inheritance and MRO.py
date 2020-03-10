@@ -1,6 +1,10 @@
 # Constructor in inheritance
 # MRO (Method Resolution Order)
 
+# How Constructor behaves in inheritance
+# How to use super() in inheritance
+# Method Resolution Order [MRO] Left to Right
+
 
 class A:
     def __init__(self):
