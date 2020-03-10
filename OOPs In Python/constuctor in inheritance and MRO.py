@@ -54,4 +54,4 @@ b1.feature3()
 
 print('\n', 'Constructor in Multiple inheritance')
 d1 = D()
-d1.feature2()  # since feature2 exist in class A and class C. Since class C is in left that's why method will call from C towords MRO
+d1.feature2()  # since feature2 exist in class A and class C. Since class C is in Left that's why method will call from C towords MRO
