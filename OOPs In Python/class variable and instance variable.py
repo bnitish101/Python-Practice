@@ -1,5 +1,5 @@
 class Car:
-    wheel = 4  # Class Variable: inside the class but not in __init__ method
+    wheel = 4  # Class/static Variable: inside the class but not in __init__ method
 
     def __init__(self):
         self.name = 'BMW'  # Instance Variable: inside the __init__ method
