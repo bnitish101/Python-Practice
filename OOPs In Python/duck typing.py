@@ -23,4 +23,4 @@ class Laptop:
 # ide = Pycharm()
 ide = MyEditor()
 lap1 = Laptop()
-lap1.code(ide)
+lap1.code(ide)  # ide object must have execute() method
