@@ -22,4 +22,4 @@ class Student:
 s1 = Student('Nio', 93)
 
 s1.show()
-# s1.Lap.show()
+s1.Lap.show()  # can call like this too
