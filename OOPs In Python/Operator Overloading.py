@@ -1,4 +1,6 @@
-a = 5
-b = 4
+a = '5'
+b = '4'
 c = a + b
-print(c)
+print(type(c))
+
+print(str.__add__(a, b))
